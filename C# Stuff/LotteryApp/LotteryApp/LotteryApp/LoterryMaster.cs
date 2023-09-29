@@ -41,12 +41,40 @@ namespace LotteryApp
         public void generateWinningNumbers(ArrayList winNumbers)
         {
 
+
             Random random = new Random();
-            
-            for (int i = 0;i < 6;i++)
+
+            while(winNumbers.Count <6) 
             {
-                winNumbers.Add(random.Next(1,49));
+
+                int randomNum = random.Next(1, 49);
+                winNumbers.Add(randomNum);
             }
+
+
+            for (int i = 0; i < winNumbers.Count; i++)
+            {   
+                int randomNum = random.Next(1, 49);
+                for (int j = i + 1; j < winNumbers.Count; j++)
+                {
+                    while (winNumbers[i] == winNumbers[j])
+                    {
+                        winNumbers.RemoveAt(i);
+                        winNumbers.Add(randomNum);
+
+                    }
+                }
+            }
+
+
+
+
+
+            winNumbers.Add(random.Next(1,49));
+
+
+
+   
         }
 
 
