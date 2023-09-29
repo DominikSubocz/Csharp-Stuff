@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1742914\\Downloads\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\LotteryApp.csproj": {}
+    "C:\\Users\\1742914\\Downloads\\Csharp-Stuff\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\LotteryApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1742914\\Downloads\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\LotteryApp.csproj": {
+    "C:\\Users\\1742914\\Downloads\\Csharp-Stuff\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\LotteryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1742914\\Downloads\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\LotteryApp.csproj",
+        "projectUniqueName": "C:\\Users\\1742914\\Downloads\\Csharp-Stuff\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\LotteryApp.csproj",
         "projectName": "LotteryApp",
-        "projectPath": "C:\\Users\\1742914\\Downloads\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\LotteryApp.csproj",
+        "projectPath": "C:\\Users\\1742914\\Downloads\\Csharp-Stuff\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\LotteryApp.csproj",
         "packagesPath": "C:\\Users\\1742914\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1742914\\Downloads\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\obj\\",
+        "outputPath": "C:\\Users\\1742914\\Downloads\\Csharp-Stuff\\C# Stuff\\LotteryApp\\LotteryApp\\LotteryApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

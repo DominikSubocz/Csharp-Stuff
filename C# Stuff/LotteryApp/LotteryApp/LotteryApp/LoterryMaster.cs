@@ -113,5 +113,78 @@ namespace LotteryApp
             Console.ReadLine();
         }
 
+        public void displayWinningNums(ArrayList winNumbers)
+        {
+
+                foreach (int j in winNumbers)
+                {
+
+                    Console.WriteLine(+j);
+
+                }
+
+
+        }
+
+        public ArrayList fillForm()
+        {
+            string dashedLine = new string('-', Console.WindowWidth - 1);
+            string formTitle = "**[LOTTERY FORM]**";
+            string detailsTitle = "{PERSONAL DETAILS}";
+            string addressTitle = "{BILLING ADDRESS}";
+            string contactTitle = "{CONTACT INFORMATION}";
+            string submitTitle = "[THE FORM HAS BEEN SUBMITTED]";
+
+            int padding = (Console.WindowWidth - formTitle.Length) / 2;
+
+            int numberOfBreaks = 3;
+            string lineBreaks = string.Join(Environment.NewLine, new string('\n', numberOfBreaks));
+
+            string mainHeading = new string('-', padding) + formTitle + new string('-', padding);
+            string detailsHeading = new string('-', padding) + detailsTitle + new string('-', padding);
+            string addressHeading = new string('-', padding) + addressTitle + new string('-', padding);
+            string contactHeading = new string('-', padding) + contactTitle + new string('-', padding);
+            string submitHeading = new string('-', padding) + submitTitle + new string('-', padding);
+
+            Console.WriteLine(mainHeading);
+            Console.WriteLine(lineBreaks);
+            Console.WriteLine(detailsHeading);
+            Console.Write("1. - Please Enter Your First Name: ");
+            string fname = Console.ReadLine();
+            Console.Write("2. - Please Enter Your Last Name: ");
+            string lname = Console.ReadLine();
+            Console.Write("3. - Please Enter Your Department: ");
+            string deptName = Console.ReadLine();
+            Console.WriteLine();
+
+
+            Console.WriteLine(addressHeading);
+            Console.Write("1. - Please Enter The First Line Of Your Address: ");
+            string adrLine1 = Console.ReadLine();
+            Console.Write("2. - [OPTIONAL] Please Enter The Second Line Of Your Address: ");
+            string adrLine2 = Console.ReadLine();
+            Console.Write("3. - Please Enter Your Postcode: ");
+            string postcode = Console.ReadLine();
+
+            Console.WriteLine(contactHeading);
+            Console.Write("1. - Please Enter Your E-mail Address: ");
+            string email = Console.ReadLine();
+            Console.Write("2. - Please Enter Your Phone Number: ");
+            string phoneNo = Console.ReadLine();
+
+
+            Console.WriteLine(submitHeading);
+
+
+
+
+
+
+
+
+            ArrayList form = new ArrayList();
+            return form;
+        }
+
     }
 }

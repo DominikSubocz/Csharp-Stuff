@@ -13,12 +13,12 @@ namespace LotteryApp
 
             abc.generateWinningNumbers(winNumbers);
             abc.inputValidation(userNumbers);
- 
+
 
             abc.pushButton();
-
+            abc.displayWinningNums(winNumbers);
             Console.WriteLine(abc.compareNumbers(winNumbers, userNumbers));
-
+            abc.fillForm();
            
         }
     }

@@ -12,3 +12,17 @@ C:\Users\1742914\Downloads\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\n
 C:\Users\1742914\Downloads\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.pdb
 C:\Users\1742914\Downloads\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.genruntimeconfig.cache
 C:\Users\1742914\Downloads\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\ref\LotteryApp.dll
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\bin\Debug\net6.0\LotteryApp.exe
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\bin\Debug\net6.0\LotteryApp.deps.json
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\bin\Debug\net6.0\LotteryApp.runtimeconfig.json
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\bin\Debug\net6.0\LotteryApp.dll
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\bin\Debug\net6.0\LotteryApp.pdb
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.AssemblyInfoInputs.cache
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.AssemblyInfo.cs
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.csproj.CoreCompileInputs.cache
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.dll
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\refint\LotteryApp.dll
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.pdb
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\LotteryApp.genruntimeconfig.cache
+C:\Users\1742914\Downloads\Csharp-Stuff\C# Stuff\LotteryApp\LotteryApp\LotteryApp\obj\Debug\net6.0\ref\LotteryApp.dll
