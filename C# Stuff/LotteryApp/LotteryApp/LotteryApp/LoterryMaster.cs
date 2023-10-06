@@ -9,7 +9,7 @@ namespace LotteryApp
 {
     internal class LoterryMaster
     {
-
+        public double jackpot = 1000000;
 
 
         public ArrayList inputValidation(ArrayList userNumbers)
@@ -79,7 +79,7 @@ namespace LotteryApp
 
 
         public string compareNumbers(ArrayList winNumbers, ArrayList userNumbers)
-        {
+        {               
             int matches = 0;
   
 
@@ -96,38 +96,48 @@ namespace LotteryApp
 
             if (matches == 0)
             {
+                rollOver();
                 return ("Well done for trying! You didn't guess any numbers, but keep playing!");
+
             }
 
             else if(matches == 1)
             {
+                rollOver();
                 return ("Well done! You got 1 number correct. Try again for a bigger win!");
             }
 
             else if (matches == 2)
             {
+                rollOver();
                 return ("Well done! You guessed 2 numbers correctly. Keep playing for even more success!");
             }
 
             else if (matches == 3)
             {
+                rollOver();
+
                 return ("Well done! 3 numbers correct. You're on the right track!");
             }
 
             else if (matches == 4)
             {
+                rollOver();
                 return ("Well done! You matched 4 numbers. Keep it up!");
             }
 
             else if (matches == 5)
             {
+                rollOver();
                 return ("Well done! You got 5 numbers correct. Try again for the jackpot!");
             }
 
             else if (matches == 6)
             {
+                rollOver();
                 return ("Well done! Jackpot! You guessed all 6 numbers correctly. Congratulations!");
             }
+
 
             return ("error");
 
@@ -214,5 +224,20 @@ namespace LotteryApp
             return form;
         }
 
+        public void tryYourLuck()
+        {
+
+        }
+
+        public void rollOver()
+        {
+            double jackpot;
+
+            Random rnd = new Random();
+
+            jackpot = rnd.Next(1000000, 50000000);
+
+            this.jackpot = jackpot;
+        }
     }
 }
